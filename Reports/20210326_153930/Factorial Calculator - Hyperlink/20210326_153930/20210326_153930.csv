@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Factorial Calculator - Hyperlink,Chrome 89.0.4389.90,Check on the three hyperlink present in the page,,2021-03-26 15:39:36,2021-03-26 15:41:14,1m - 38.235s,FAILED
+,,,,,,,
+Test Cases/Factorial Calculator - hyperlink 1,Chrome 89.0.4389.90,,,2021-03-26 15:39:38,2021-03-26 15:40:21,42.996s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:39:38,2021-03-26 15:39:42,3.174s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:39:42,2021-03-26 15:39:45,3.567s,PASSED
+"click(findTestObject(""Factorial Calculator/a_Terms and Conditions""))",Chrome 89.0.4389.90,,,2021-03-26 15:39:45,2021-03-26 15:39:46,1.244s,PASSED
+"verifyElementText(findTestObject(""Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1""), ""This is the terms and conditions document. We are not yet ready with it. Stay tuned!"")",Chrome 89.0.4389.90,,,2021-03-26 15:39:46,2021-03-26 15:40:21,34.307s,FAILED
+,,,,,,,
+Test Cases/Factorial Calculator - hyperlink 2,Chrome 89.0.4389.90,,,2021-03-26 15:40:21,2021-03-26 15:41:02,41.083s,FAILED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:40:21,2021-03-26 15:40:24,2.455s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:40:24,2021-03-26 15:40:28,3.805s,PASSED
+"click(findTestObject(""Factorial Calculator/a_Privacy""))",Chrome 89.0.4389.90,,,2021-03-26 15:40:28,2021-03-26 15:40:28,0.900s,PASSED
+"verifyElementText(findTestObject(""Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1""), ""This is the privacy document. We are not yet ready with it. Stay tuned!"")",Chrome 89.0.4389.90,,,2021-03-26 15:40:28,2021-03-26 15:41:02,33.313s,FAILED
+,,,,,,,
+Test Cases/Factorial Calculator - hyperlink 3,Chrome 89.0.4389.90,,,2021-03-26 15:41:02,2021-03-26 15:41:14,12.167s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:41:02,2021-03-26 15:41:05,2.455s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:41:05,2021-03-26 15:41:08,3.546s,PASSED
+"click(findTestObject(""Factorial Calculator/a_Qxf2 Services""))",Chrome 89.0.4389.90,,,2021-03-26 15:41:08,2021-03-26 15:41:13,5.045s,PASSED
+"verifyElementVisible(findTestObject(""Factorial Calculator/img_QA for startups_img-responsive logo col-md-12""), STOP_ON_FAILURE)",Chrome 89.0.4389.90,,,2021-03-26 15:41:13,2021-03-26 15:41:14,0.573s,PASSED

@@ -8,7 +8,7 @@
       "proposedLocator": "//body",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1_position.png"
+      "pathToScreenshot": "Reports/20210326_153930/Factorial Calculator - Hyperlink/20210326_153930/Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1_position.png"
     },
     {
       "approved": true,
@@ -18,7 +18,7 @@
       "proposedLocator": "//body",
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
-      "pathToScreenshot": "Reports/Self-healing/Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1_position.png"
+      "pathToScreenshot": "Reports/20210326_153930/Factorial Calculator - Hyperlink/20210326_153930/Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1_position.png"
     }
   ]
 }

@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Factorial Calculator - Calculating" time="125.201" tests="14" failures="0" skips="0" errors="0">
+   <testsuite name="Factorial Calculator - Calculating" tests="14" failures="0" errors="0" time="125.201" skips="0" timestamp="2021-03-26 15:41:30" hostname="Fioni - DESKTOP-RP318JO" id="Test Suites/Factorial Calculator - Calculating">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_154125\\Factorial Calculator - Calculating\\20210326_154125"/>
+         <property name="logFiles" value="C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_154125\\Factorial Calculator - Calculating\\20210326_154125\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fioni - DESKTOP-RP318JO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.43.204"/>
+         <property name="sessionId" value="ef7504000d58c68b906ef4c1e8a92e01"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="10.491" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:41:32 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:41:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:41:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:41:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:41:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:41:36 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:39 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '0' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:41:41 - [MESSAGE][PASSED] - Text '0' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:41:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:41:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:41:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:41:42 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.773" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:41:42 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:41:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:41:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:41:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:41:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:41:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:41:45 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:49 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '50' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:41:49 - [MESSAGE][PASSED] - Text '50' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:41:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:41:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:41:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:41:51 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.858" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:41:51 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:41:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:41:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:41:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:41:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:41:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:41:54 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:58 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '100' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:41:58 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:41:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:41:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:41:59 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:41:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:00 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="10.424" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:00 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:02 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:08 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '500' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:09 - [MESSAGE][PASSED] - Text '500' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:42:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:10 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="9.36" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:11 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:13 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:17 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '989' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:18 - [MESSAGE][PASSED] - Text '989' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:42:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:20 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.277" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:20 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:22 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:26 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '990' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:27 - [MESSAGE][PASSED] - Text '990' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:42:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.393" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:28 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:31 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:34 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '1000' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:35 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:42:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:37 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.248" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:37 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:39 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:43 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '-1' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:43 - [MESSAGE][PASSED] - Text '-1' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:42:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.269" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:45 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:47 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:51 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '-5' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:52 - [MESSAGE][PASSED] - Text '-5' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:42:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:42:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:42:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:42:53 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.218" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:42:53 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:42:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:42:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:42:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:42:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:42:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:42:56 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:59 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:42:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '-10' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:00 - [MESSAGE][PASSED] - Text '-10' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:43:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:43:02 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - general cases" time="8.22" classname="Test Cases/Factorial Calculator - general cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:43:02 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - general cases: Test Cases/Factorial Calculator - general cases
+
+2021-03-26 15:43:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:43:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:43:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:43:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:43:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:43:04 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:07 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '+10' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:08 - [MESSAGE][PASSED] - Text '+10' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Factorial Calculator/div_The factorial of 3 is 6"), 0): Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present
+
+2021-03-26 15:43:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2021-03-26 15:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/div_The factorial of 3 is 6' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - other cases" time="7.93" classname="Test Cases/Factorial Calculator - other cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:43:10 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - other cases: Test Cases/Factorial Calculator - other cases
+
+2021-03-26 15:43:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:43:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:43:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:43:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:43:12 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:16 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '3!' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:17 - [MESSAGE][PASSED] - Text '3!' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Factorial Calculator/p_Please enter an integer"), "Please enter an integer"): Actual text and expected text of test object 'Object Repository/Factorial Calculator/p_Please enter an integer' are matched.
+
+2021-03-26 15:43:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Factorial Calculator/p_Please enter an integer' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - other cases" time="8.006" classname="Test Cases/Factorial Calculator - other cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:43:18 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - other cases: Test Cases/Factorial Calculator - other cases
+
+2021-03-26 15:43:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:43:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:43:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:43:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:43:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:43:20 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:24 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text '3.5' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:25 - [MESSAGE][PASSED] - Text '3.5' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:25 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Factorial Calculator/p_Please enter an integer"), "Please enter an integer"): Actual text and expected text of test object 'Object Repository/Factorial Calculator/p_Please enter an integer' are matched.
+
+2021-03-26 15:43:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Factorial Calculator/p_Please enter an integer' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - other cases" time="7.657" classname="Test Cases/Factorial Calculator - other cases" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:43:26 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - other cases: Test Cases/Factorial Calculator - other cases
+
+2021-03-26 15:43:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:43:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:43:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:43:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:43:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:43:28 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:32 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:43:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Factorial Calculator/input_The greatest factorial calculator_number"), data): Text ' ' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:33 - [MESSAGE][PASSED] - Text ' ' is set on object 'Object Repository/Factorial Calculator/input_The greatest factorial calculator_number'
+
+2021-03-26 15:43:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Factorial Calculator/button_Calculate")): Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/button_Calculate' is clicked on
+
+2021-03-26 15:43:33 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Factorial Calculator/p_Please enter an integer"), "Please enter an integer"): Actual text and expected text of test object 'Object Repository/Factorial Calculator/p_Please enter an integer' are matched.
+
+2021-03-26 15:43:33 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Factorial Calculator/p_Please enter an integer' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-26 15:41:30 - [TEST_SUITE][PASSED] - Factorial Calculator - Calculating: Test Cases/Factorial Calculator - other cases]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

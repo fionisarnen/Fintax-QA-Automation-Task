@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Factorial Calculator - general cases</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>373155ac-8ff6-46dc-83a2-fb5881cdca6f</testCaseGuid>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>35171db6-b481-4069-8b31-dce965b182c2</id>
+      <masked>false</masked>
+      <name>data</name>
+   </variable>
+</TestCaseEntity>

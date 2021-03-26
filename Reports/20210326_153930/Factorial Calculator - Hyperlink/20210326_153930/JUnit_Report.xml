@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Factorial Calculator - Hyperlink" time="99.654" tests="3" failures="2" skips="0" errors="0">
+   <testsuite name="Factorial Calculator - Hyperlink" tests="3" failures="2" errors="0" time="99.654" skips="0" timestamp="2021-03-26 15:39:36" hostname="Fioni - DESKTOP-RP318JO" id="Test Suites/Factorial Calculator - Hyperlink">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930"/>
+         <property name="logFiles" value="C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748020312.png, C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748020791.png, C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748061481.png, C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748061914.png"/>
+         <property name="hostName" value="Fioni - DESKTOP-RP318JO"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.1.208"/>
+         <property name="browser" value="Chrome 89.0.4389.90"/>
+         <property name="hostAddress" value="192.168.43.204"/>
+         <property name="sessionId" value="d711171af5985a0c4e2a14b5cd76f8a1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Factorial Calculator - hyperlink 1" time="42.996" classname="Test Cases/Factorial Calculator - hyperlink 1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Factorial Calculator - hyperlink 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-26 15:39:38 - [TEST_CASE][FAILED] - Test Cases/Factorial Calculator - hyperlink 1: Test Cases/Factorial Calculator - hyperlink 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-26 15:39:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:39:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:39:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:39:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:39:42 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:39:45 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:39:45 - [TEST_STEP][PASSED] - click(findTestObject("Factorial Calculator/a_Terms and Conditions")): Object: 'Object Repository/Factorial Calculator/a_Terms and Conditions' is clicked on
+
+2021-03-26 15:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/a_Terms and Conditions' is clicked on
+
+2021-03-26 15:39:46 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1"), "This is the terms and conditions document. We are not yet ready with it. Stay tuned!"): Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-26 15:40:18 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='This is the terms and conditions document. We are not yet ready with it. Stay tuned!']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-26 15:40:18 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1'. Try using Self-healing.
+
+2021-03-26 15:40:18 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='This is the terms and conditions document. We are not yet ready with it. Stay tuned!']/parent::*'.
+
+2021-03-26 15:40:19 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//body'.
+
+2021-03-26 15:40:20 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Fioni/git/Fintax-QA-Automation-Task/Reports/Self-healing/Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1_position.png
+
+2021-03-26 15:40:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' was broken. Propose an alternative one: '//body'.
+
+2021-03-26 15:40:20 - [MESSAGE][FAILED] - Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748020312.png]]
+
+2021-03-26 15:40:21 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748020791.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-26 15:39:38 - [TEST_CASE][FAILED] - Test Cases/Factorial Calculator - hyperlink 1: Test Cases/Factorial Calculator - hyperlink 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - hyperlink 2" time="41.083" classname="Test Cases/Factorial Calculator - hyperlink 2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Factorial Calculator - hyperlink 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 2.run(Factorial Calculator - hyperlink 2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-03-26 15:40:21 - [TEST_CASE][FAILED] - Test Cases/Factorial Calculator - hyperlink 2: Test Cases/Factorial Calculator - hyperlink 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 2.run(Factorial Calculator - hyperlink 2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-03-26 15:40:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:40:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:40:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:40:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:40:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:40:24 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:40:28 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Factorial Calculator/a_Privacy")): Object: 'Object Repository/Factorial Calculator/a_Privacy' is clicked on
+
+2021-03-26 15:40:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/a_Privacy' is clicked on
+
+2021-03-26 15:40:28 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1"), "This is the privacy document. We are not yet ready with it. Stay tuned!"): Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 2.run(Factorial Calculator - hyperlink 2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-03-26 15:41:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*/text()[normalize-space(.)='This is the privacy document. We are not yet ready with it. Stay tuned!']/parent::*'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-03-26 15:41:00 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1'. Try using Self-healing.
+
+2021-03-26 15:41:00 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='This is the privacy document. We are not yet ready with it. Stay tuned!']/parent::*'.
+
+2021-03-26 15:41:00 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//body'.
+
+2021-03-26 15:41:01 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: C:/Users/Fioni/git/Fintax-QA-Automation-Task/Reports/Self-healing/Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1_position.png
+
+2021-03-26 15:41:01 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' was broken. Propose an alternative one: '//body'.
+
+2021-03-26 15:41:01 - [MESSAGE][FAILED] - Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 2.run(Factorial Calculator - hyperlink 2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+)
+[[ATTACHMENT|C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748061481.png]]
+
+2021-03-26 15:41:02 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 2.run(Factorial Calculator - hyperlink 2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|C:\\Users\\Fioni\\git\\Fintax-QA-Automation-Task\\Reports\\20210326_153930\\Factorial Calculator - Hyperlink\\20210326_153930\\1616748061914.png]]]]></system-out>
+         <system-err><![CDATA[2021-03-26 15:40:21 - [TEST_CASE][FAILED] - Test Cases/Factorial Calculator - hyperlink 2: Test Cases/Factorial Calculator - hyperlink 2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 2.run(Factorial Calculator - hyperlink 2:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' and expected text 'This is the privacy document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the privacy document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Factorial Calculator - hyperlink 3" time="12.167" classname="Test Cases/Factorial Calculator - hyperlink 3" status="PASSED">
+         <system-out><![CDATA[2021-03-26 15:41:02 - [TEST_CASE][PASSED] - Test Cases/Factorial Calculator - hyperlink 3: Test Cases/Factorial Calculator - hyperlink 3
+
+2021-03-26 15:41:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-03-26 15:41:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-03-26 15:41:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-03-26 15:41:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-03-26 15:41:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-03-26 15:41:05 - [TEST_STEP][PASSED] - navigateToUrl("http://qainterview.pythonanywhere.com/"): Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:08 - [MESSAGE][PASSED] - Navigate to 'http://qainterview.pythonanywhere.com/' successfully
+
+2021-03-26 15:41:08 - [TEST_STEP][PASSED] - click(findTestObject("Factorial Calculator/a_Qxf2 Services")): Object: 'Object Repository/Factorial Calculator/a_Qxf2 Services' is clicked on
+
+2021-03-26 15:41:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Factorial Calculator/a_Qxf2 Services' is clicked on
+
+2021-03-26 15:41:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Factorial Calculator/img_QA for startups_img-responsive logo col-md-12"), STOP_ON_FAILURE): Object 'Object Repository/Factorial Calculator/img_QA for startups_img-responsive logo col-md-12' is visible
+
+2021-03-26 15:41:14 - [MESSAGE][PASSED] - Object 'Object Repository/Factorial Calculator/img_QA for startups_img-responsive logo col-md-12' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-03-26 15:39:36 - [TEST_SUITE][FAILED] - Factorial Calculator - Hyperlink: Test Cases/Factorial Calculator - hyperlink 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-03-26 15:39:36 - [TEST_SUITE][FAILED] - Factorial Calculator - Hyperlink: Test Cases/Factorial Calculator - hyperlink 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:4690)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$2.call(Unknown Source)
+	at Factorial Calculator - hyperlink 1.run(Factorial Calculator - hyperlink 1:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1616747970889.run(TempTestSuite1616747970889.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'This is the privacy document. We are not yet ready with it. Stay tuned!' and expected text 'This is the terms and conditions document. We are not yet ready with it. Stay tuned!' of test object 'Object Repository/Factorial Calculator/body_This is the terms and conditions document. We are not yet ready with it. Stay tunedCapture object Alt Load DOM Map CtrlAlthtml1body1' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:57)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

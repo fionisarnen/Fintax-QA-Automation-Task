@@ -1,0 +1,14 @@
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 1","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u00270\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 2","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u002750\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 3","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027100\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 4","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027500\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 5","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027989\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 6","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027990\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 7","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u00271000\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 8","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027-1\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 9","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027-5\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 10","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027-10\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - general cases - Iteration 11","testCaseId":"Test Cases/Factorial Calculator - general cases","bindedValues":{"data":"\u0027+10\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - other cases - Iteration 1","testCaseId":"Test Cases/Factorial Calculator - other cases","bindedValues":{"data":"\u00273!\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - other cases - Iteration 2","testCaseId":"Test Cases/Factorial Calculator - other cases","bindedValues":{"data":"\u00273.5\u0027"}}
+{"testCaseName":"Test Cases/Factorial Calculator - other cases - Iteration 3","testCaseId":"Test Cases/Factorial Calculator - other cases","bindedValues":{"data":"\u0027 \u0027"}}

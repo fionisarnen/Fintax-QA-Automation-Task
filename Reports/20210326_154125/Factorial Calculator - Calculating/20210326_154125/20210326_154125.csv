@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Factorial Calculator - Calculating,Chrome 89.0.4389.90,Main functionality: Calculate factorial for the given input,,2021-03-26 15:41:30,2021-03-26 15:43:33,2m - 3.864s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:41:32,2021-03-26 15:41:42,10.491s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:41:33,2021-03-26 15:41:36,3.106s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:41:36,2021-03-26 15:41:39,3.835s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:41:39,2021-03-26 15:41:41,1.057s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:41:41,2021-03-26 15:41:41,0.592s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:41:41,2021-03-26 15:41:42,1.164s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:41:42,2021-03-26 15:41:51,8.773s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:41:42,2021-03-26 15:41:45,2.336s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:41:45,2021-03-26 15:41:49,3.987s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:41:49,2021-03-26 15:41:49,0.806s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:41:49,2021-03-26 15:41:50,0.502s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:41:50,2021-03-26 15:41:51,1.108s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:41:51,2021-03-26 15:42:00,8.858s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:41:51,2021-03-26 15:41:54,2.732s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:41:54,2021-03-26 15:41:58,3.627s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:41:58,2021-03-26 15:41:58,0.864s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:41:58,2021-03-26 15:41:59,0.419s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:41:59,2021-03-26 15:42:00,1.176s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:00,2021-03-26 15:42:10,10.424s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:00,2021-03-26 15:42:02,2.341s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:02,2021-03-26 15:42:08,5.765s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:08,2021-03-26 15:42:09,0.735s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:42:09,2021-03-26 15:42:09,0.474s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:42:09,2021-03-26 15:42:10,1.092s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:11,2021-03-26 15:42:20,9.360s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:11,2021-03-26 15:42:13,2.399s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:13,2021-03-26 15:42:17,4.470s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:17,2021-03-26 15:42:18,0.903s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:42:18,2021-03-26 15:42:19,0.473s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:42:19,2021-03-26 15:42:20,1.098s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:20,2021-03-26 15:42:28,8.277s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:20,2021-03-26 15:42:22,2.337s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:22,2021-03-26 15:42:26,3.493s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:26,2021-03-26 15:42:27,0.809s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:42:27,2021-03-26 15:42:27,0.454s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:42:27,2021-03-26 15:42:28,1.168s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:28,2021-03-26 15:42:37,8.393s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:28,2021-03-26 15:42:31,2.269s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:31,2021-03-26 15:42:34,3.772s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:34,2021-03-26 15:42:35,0.855s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:42:35,2021-03-26 15:42:36,0.461s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:42:36,2021-03-26 15:42:37,1.026s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:37,2021-03-26 15:42:45,8.248s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:37,2021-03-26 15:42:39,2.438s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:39,2021-03-26 15:42:43,3.522s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:43,2021-03-26 15:42:43,0.813s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:42:43,2021-03-26 15:42:44,0.532s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:42:44,2021-03-26 15:42:45,0.932s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:45,2021-03-26 15:42:53,8.269s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:45,2021-03-26 15:42:47,2.285s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:47,2021-03-26 15:42:51,3.792s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:51,2021-03-26 15:42:52,0.880s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:42:52,2021-03-26 15:42:52,0.468s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:42:52,2021-03-26 15:42:53,0.834s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:42:53,2021-03-26 15:43:02,8.218s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:42:53,2021-03-26 15:42:56,2.277s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:42:56,2021-03-26 15:42:59,3.660s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:42:59,2021-03-26 15:43:00,0.786s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:43:00,2021-03-26 15:43:00,0.435s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:43:00,2021-03-26 15:43:02,1.035s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - general cases,Chrome 89.0.4389.90,,,2021-03-26 15:43:02,2021-03-26 15:43:10,8.220s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:43:02,2021-03-26 15:43:04,2.310s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:04,2021-03-26 15:43:07,3.579s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:43:07,2021-03-26 15:43:08,0.801s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:43:08,2021-03-26 15:43:09,0.475s,PASSED
+"verifyElementPresent(findTestObject(""Factorial Calculator/div_The factorial of 3 is 6""), 0)",Chrome 89.0.4389.90,,,2021-03-26 15:43:09,2021-03-26 15:43:10,1.043s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - other cases,Chrome 89.0.4389.90,,,2021-03-26 15:43:10,2021-03-26 15:43:18,7.930s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:43:10,2021-03-26 15:43:12,2.281s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:12,2021-03-26 15:43:16,3.504s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:43:16,2021-03-26 15:43:17,0.739s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:43:17,2021-03-26 15:43:17,0.540s,PASSED
+"verifyElementText(findTestObject(""Factorial Calculator/p_Please enter an integer""), ""Please enter an integer"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:17,2021-03-26 15:43:18,0.442s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - other cases,Chrome 89.0.4389.90,,,2021-03-26 15:43:18,2021-03-26 15:43:26,8.006s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:43:18,2021-03-26 15:43:20,2.347s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:20,2021-03-26 15:43:24,3.775s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:43:24,2021-03-26 15:43:25,0.838s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:43:25,2021-03-26 15:43:25,0.469s,PASSED
+"verifyElementText(findTestObject(""Factorial Calculator/p_Please enter an integer""), ""Please enter an integer"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:25,2021-03-26 15:43:26,0.542s,PASSED
+,,,,,,,
+Test Cases/Factorial Calculator - other cases,Chrome 89.0.4389.90,,,2021-03-26 15:43:26,2021-03-26 15:43:33,7.657s,PASSED
+"openBrowser("""")",Chrome 89.0.4389.90,,,2021-03-26 15:43:26,2021-03-26 15:43:28,2.229s,PASSED
+"navigateToUrl(""http://qainterview.pythonanywhere.com/"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:28,2021-03-26 15:43:32,3.729s,PASSED
+"setText(findTestObject(""Object Repository/Factorial Calculator/input_The greatest factorial calculator_number""), data)",Chrome 89.0.4389.90,,,2021-03-26 15:43:32,2021-03-26 15:43:33,0.765s,PASSED
+"click(findTestObject(""Object Repository/Factorial Calculator/button_Calculate""))",Chrome 89.0.4389.90,,,2021-03-26 15:43:33,2021-03-26 15:43:33,0.483s,PASSED
+"verifyElementText(findTestObject(""Factorial Calculator/p_Please enter an integer""), ""Please enter an integer"")",Chrome 89.0.4389.90,,,2021-03-26 15:43:33,2021-03-26 15:43:33,0.442s,PASSED
